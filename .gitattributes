@@ -1,0 +1,43 @@
+* text=auto !eol
+/README.md -text
+dslib/LICENSE.txt -text
+dslib/pom.xml -text
+dslib/src/main/resources/META-INF/resources/webjar/dslib/js/authorization.js -text
+dslib/src/main/resources/META-INF/resources/webjar/dslib/js/defaultResolver.js -text
+dslib/src/main/resources/META-INF/resources/webjar/dslib/js/mainzellisteResolver.js -text
+dslib/src/main/resources/META-INF/resources/webjar/dslib/js/netApiConnection.js -text
+dslib/src/main/resources/META-INF/resources/webjar/dslib/js/resolve.js -text
+dslib/src/main/resources/META-INF/resources/webjar/dslib/js/tempIdCache.js -text
+dslib/src/main/resources/META-INF/resources/webjar/dslib/js/tempIdResolver.js -text
+dslib/src/main/resources/META-INF/resources/webjar/dslib/js/webStorageTempIdCache.js -text
+font-lato/pom.xml -text
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/css/font-lato-jsp.css -text
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/css/font-lato.css -text
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-black-italic.woff -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-black-italic.woff2 -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-black.woff -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-black.woff2 -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-bold-italic.woff -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-bold-italic.woff2 -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-bold.woff -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-bold.woff2 -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-italic.woff -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-italic.woff2 -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-light-italic.woff -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-light-italic.woff2 -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-light.woff -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-light.woff2 -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-regular.woff -text svneol=unset#unset
+font-lato/src/main/resources/META-INF/resources/webjar/font-lato/fonts/lato-regular.woff2 -text svneol=unset#unset
+samply/pom.xml -text
+samply/src/main/resources/META-INF/resources/webjar/samply/css/base.css -text
+samply/src/main/resources/META-INF/resources/webjar/samply/css/buttons.css -text
+samply/src/main/resources/META-INF/resources/webjar/samply/css/demo-ribbon.css -text
+samply/src/main/resources/META-INF/resources/webjar/samply/css/fadein.css -text
+samply/src/main/resources/META-INF/resources/webjar/samply/css/osse.css -text
+samply/src/main/resources/META-INF/resources/webjar/samply/images/demo.svg -text
+samply/src/main/resources/META-INF/resources/webjar/samply/images/osse.svg -text
+samply/src/site/markdown/changelog.md -text
+samply/src/site/markdown/index.md -text
+samply/src/site/markdown/license.md -text
+samply/src/site/site.xml -text

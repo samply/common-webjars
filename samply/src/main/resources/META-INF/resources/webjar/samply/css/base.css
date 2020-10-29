@@ -1,0 +1,91 @@
+
+table {
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding-top: 60px !important; /* navitation bar */
+}
+
+.form-group.required .control-label:after {
+    content:" *";
+    color:red;
+}
+
+li.active > a:focus, li.active > a::-moz-focus-inner {
+    outline: none;
+}
+
+a.detailLink:hover, .btn:hover, .btn:focus {
+    text-decoration: none;
+}
+
+a.detailLink:focus, .btn:hover, .btn:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+a.detailLink::-moz-focus-inner, .btn::-moz-focus-inner, .btn::-moz-focus-inner {
+    border: 0;
+    text-decoration: none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none;
+}
+
+.demoBanner {
+    width: 150px;
+    z-index: 1080;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 0;
+    pointer-events: none;
+}
+
+.dropdown-header {
+    text-align: center;
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-inner {
+    min-height: 0px;
+}
+
+.navbar {
+    min-height: 60px;
+}
+
+.logo {
+    height: 23px;
+    margin-right: 10px;
+    width: 60px;
+    display: inline !important;
+}
+
+.projectName {
+    color: #DD5D37;
+}
+
+.userIcon {
+    font-size: 30px !important;
+    position: relative;
+    top: 5px;
+}

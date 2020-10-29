@@ -1,0 +1,122 @@
+/*!
+ * "Fork me on GitHub" CSS ribbon v0.1.1 | MIT License
+ * https://github.com/simonwhitaker/demo-ribbon-css
+*/
+
+/* Left will inherit from right (so we don't need to duplicate code) */
+.demo-ribbon {
+	position: absolute;
+	
+	padding: 2px 0;
+	
+	background-color: #DD5D37;
+	
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)),
+		to(rgba(0, 0, 0, 0.2)));
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.2));
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.2));
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.2));
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.2));
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.2));
+		
+	-webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+	z-index: 9999;
+	
+	pointer-events: none;
+	color: #fff;
+	
+	text-decoration: none;
+	
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	
+	width: 400px;
+	line-height: 60px;
+	display: inline-block;
+	padding: 2px 0;
+	
+	font-size: 30px;
+}
+
+.demo-ribbon-wrapper {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	z-index: 9999;
+	pointer-events: none;
+}
+
+.demo-ribbon-wrapper.fixed {
+	position: fixed;
+}
+
+.demo-ribbon-wrapper.left {
+	left: 0;
+}
+
+.demo-ribbon-wrapper.right {
+	right: 0;
+}
+
+.demo-ribbon-wrapper.left-bottom {
+	position: fixed;
+	top: inherit;
+	bottom: 0;
+	left: 0;
+}
+
+.demo-ribbon-wrapper.right-bottom {
+	position: fixed;
+	top: inherit;
+	bottom: 0;
+	right: 0;
+}
+
+.demo-ribbon-wrapper.right .demo-ribbon {
+	top: 42px;
+	right: -43px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.demo-ribbon-wrapper.left .demo-ribbon {
+	top: 20px;
+	left: -140px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.demo-ribbon-wrapper.left-bottom .demo-ribbon {
+	top: 80px;
+	left: -43px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.demo-ribbon-wrapper.right-bottom .demo-ribbon {
+	top: 80px;
+	right: -43px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
