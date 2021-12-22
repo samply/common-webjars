@@ -1,4 +1,3 @@
-UNMERGED BRANCH -CHANGES FROM OTHER SAMPLY TEAMS MISSING
 # Partially Depreciated
 
 Please switch to using http://www.webjars.org/ instead.
